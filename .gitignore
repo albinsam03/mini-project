@@ -1,0 +1,55 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node.js dependencies (if using npm/yarn for frontend tools)
+node_modules/
+
+# Composer dependencies (if using Composer for PHP packages)
+vendor/
+
+# Environment config files
+.env
+.env.*
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+*.sql.gz
+*.zip
+
+# Cache or temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+.cache/
+tmp/
+logs/
+
+# PHPStorm & NetBeans settings
+nbproject/
+*.iml
+
+# Build/output folders (if any)
+dist/
+build/
+
+# Uploaded files (optional – only if not part of versioned assets)
+uploads/
+files/
+
+# XAMPP/Laragon related
+*.db
+*.sqlite
+*.pid
+
+# npm/yarn lock (optional)
+package-lock.json
+yarn.lock
